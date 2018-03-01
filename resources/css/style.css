@@ -1,0 +1,72 @@
+
+html{
+  font-size:16px;
+}
+
+    /*Header Section*/
+header {
+  height:5.31rem;
+}
+
+.header {
+  line-height:1.6rem;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  margin-left:1.88rem;
+  margin-right:1.88rem;
+}
+
+.navigation ul{
+  display:flex;
+  align-items:center;
+}
+
+.navigation li {
+  display:inline;
+  font-size:1rem;
+  list-style-type: none;
+}
+
+/*Mobile Navigation don't display*/
+.mobile_tabletnavigation {
+  visibility:none;
+}
+
+
+.product {
+   color:#4A4A4A;
+   margin-right:2rem;
+}
+
+.follow {
+  margin-right:0.75rem;
+}
+
+.about{
+  color:#4A4A4A;
+  margin-right:2rem;
+}
+
+.follow{
+  color:#4A4A4A;
+}
+
+.logo {
+  font-size:1.5rem;
+}
+
+.anchor {
+  color:#4A4A4A;
+}
+
+.instagramimage{
+  width:1.5rem;
+}
+
+  /*Main Section*/
+
+.maintopsection {
+  background-color:green;
+  height:36rem;
+}
