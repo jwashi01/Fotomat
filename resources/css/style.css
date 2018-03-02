@@ -1,11 +1,21 @@
 
 html{
   font-size:16px;
+  font-family:sans-serif;
 }
 
     /*Header Section*/
 header {
+  position:fixed;
+  z-index:10;
+  top:0;
+  width:100%;
   height:5.31rem;
+  background-color:white;
+}
+
+a {
+  text-decoration: none;
 }
 
 .header {
@@ -37,20 +47,24 @@ header {
 .product {
    color:#4A4A4A;
    margin-right:2rem;
+   font-family:"Roboto-Regular", sans-serif;
+   font-size:1rem;
 }
 
 .follow {
   margin-right:0.75rem;
+  font-family:"Roboto-Regular", sans-serif;
+  color:#4A4A4A;
+  font-size:1rem;
 }
 
 .about{
   color:#4A4A4A;
   margin-right:2rem;
+  font-family:"Roboto-Regular", sans-serif;
+  font-size:1rem;
 }
 
-.follow{
-  color:#4A4A4A;
-}
 
 .logo {
   font-size:1.5rem;
@@ -58,15 +72,226 @@ header {
 
 .anchor {
   color:#4A4A4A;
+  font-family:"Roboto-Regular", sans-serif;
+  letter-spacing: 0.2rem;
 }
 
 .instagramimage{
   width:1.5rem;
+  padding-right:1.25rem;
 }
 
   /*Main Section*/
 
+main {
+  position:relative;
+  z-index:2;
+  top:5rem;
+}
+
 .maintopsection {
-  background-color:green;
+  background-color:#4a4a4a;
+  background-size:cover;
   height:36rem;
+  padding-top:10.63rem;
+  padding-left:6.3rem;
+  margin-bottom:0;
+  padding-bottom:0;
+}
+
+
+.maintag {
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+  text-align:center;
+  background-color:#9DC20A;
+  border:1px solid #979797;
+  border-radius:0.25rem;
+  height:19.5rem;
+  width:35.5rem;
+  padding-bottom:1rem;
+}
+
+.instant {
+  font-family:"Damion", cursive;
+  font-style:italic;
+  font-size:2.25rem;
+  color:white;
+  line-height:1.4rem;
+}
+
+.FormatCamera {
+  font-size:3.13rem;
+  line-height:1.4rem;
+  color:white;
+  font-family:"Rubik-Regular", sans-serif;
+  padding-bottom:1.5rem;
+  margin-bottom:0rem;
+  margin-top:0rem;
+}
+
+.emailus {
+  font-family:"Roboto-Regular", sans-serif;
+  line-height:1.4rem;
+  color:white;
+  font-size:1.25rem;
+  margin-top:0rem;
+  margin-bottom:0rem;
+  padding-top:0rem;
+  padding-bottom:0rem;
+}
+
+.waitinglist {
+  font-family:"Roboto-Regular", sans-serif;
+  line-height:1.4rem;
+  color:white;
+  font-size:1.25rem;
+  margin-top:0rem;
+  margin-bottom:0rem;
+  padding-top:0rem;
+  padding-bottom:1.5rem;
+}
+
+.Joinsection {
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  background-color:#4A4A4A;
+  width:25.5rem;
+  height:4rem;
+  border:1px solid #4A4A4A;
+  border-radius:0.25rem;
+}
+
+.Joinwaitinglist {
+  align-self: center;
+  background-color:#4A4A4A;
+  width:25.5rem;
+  height:4rem;
+  font-family:"Roboto-Medium", sans-serif;
+  line-height:1.4rem;
+  color:white;
+  font-size:1.25rem;
+}
+
+.featuressection {
+  display:flex;
+  justify-content: center;
+  background:lightgray;
+  padding-top:4rem;
+  padding-bottom:3rem;
+  margin-top:0rem;
+}
+
+.feature1 {
+  background-color:white;
+  background-size:cover;
+  width:40%;
+  margin-right:2rem;
+  padding-right:2rem;
+}
+
+.feature1image {
+  width:90%;
+  overflow:hidden;
+  height:65%;
+  margin-right:2rem;
+  margin-left:2rem;
+  margin-top:2rem;
+
+}
+
+.feature1header{
+  text-align:center;
+}
+
+.feature1content{
+  text-align:center;
+  padding-bottom:4rem;
+}
+
+.feature2 {
+  background-color:white;
+  background-size:cover;
+  width:40%;
+  margin-right:2rem;
+  padding-right:2rem;
+}
+
+.feature2image{
+  width:90%;
+  height:65%;
+  margin-right:2rem;
+  margin-left:2rem;
+  margin-top:2rem;
+  overflow:hidden;
+}
+
+.feature2header {
+  text-align:center;
+}
+
+.feature2content{
+  text-align:center;
+  font-size:1rem;
+  padding-bottom:4rem;
+}
+
+.filtersection {
+  background-color:#4a4a4a;
+}
+
+.filterheader {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  color:white;
+}
+
+.filtercontent {
+
+}
+
+.filtercontent1 {
+
+}
+
+.filterimages {
+  display:flex;
+  margin-right:1%;
+  margin-left:1%;
+  padding-bottom:4rem;
+}
+
+.filter1 {
+  width:25%;
+}
+
+.filter1image{
+  width:100%;
+}
+
+.filter2 {
+  width:25%;
+}
+
+.filter2image{
+  width:100%;
+}
+
+.filter3{
+  width:25%;
+}
+
+.filter3image{
+  width:100%;
+}
+
+.filter4{
+  width:25%;
+}
+
+.filter4image{
+  width:100%;
 }
