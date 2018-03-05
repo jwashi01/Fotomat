@@ -52,7 +52,7 @@ a {
 /*Mobile Navigation don't display*/
 
 .mobile_tabletnavigation {
-  visibility:none;
+  display:none;
 }
 
 
